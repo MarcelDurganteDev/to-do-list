@@ -1,0 +1,55 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  flex-direction: row;
+}
+
+.btn-add {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 36px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.task-item {
+  color: white;
+  font-size: 26px;
+}
+
+.btn-delete {
+font-size: 20px;
+font-weight: 600;
+color: red;
+text-align: center;
+margin: 3px 0 0 20px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+padding: 2px;
+}
+
+
+
