@@ -9,7 +9,7 @@ function App() {
 		setNewTask(event.target.value);
 	};
 
-	const handleAddTask = (newTask) => {
+	const handleAddTask = () => {
 		const newTodoList = [...todoList, newTask];
 		setTodoList(newTodoList);
 	};
@@ -24,9 +24,8 @@ function App() {
 				</button>
 			</div>
 			<div className='list'>
-				{newTask}
 				{todoList.map((task) => {
-					return <h1>{task}</h1>;
+					return <h4 className='task-item'>{task}</h4>;
 				})}
 			</div>
 		</div>
